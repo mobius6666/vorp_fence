@@ -6,8 +6,8 @@ end)
 
 VorpInv = exports.vorp_inventory:vorp_inventoryApi()
 
-RegisterServerEvent('fence:vender')
-AddEventHandler( 'fence:vender', function ( args )
+RegisterServerEvent('gold:vender')
+AddEventHandler( 'gold:vender', function ( args )
     local User = VorpCore.getUser(source)
     local Character = User.getUsedCharacter
     local _src   = source
@@ -23,7 +23,7 @@ AddEventHandler( 'fence:vender', function ( args )
     end
 
 	VorpInv.subItem(_src, _model, 1)
-	Character.addCurrency(0, _price)
+	Character.addCurrency(1, _price)
 	
 	TriggerClientEvent( 'UI:NotificaVenta', _src, Config.Selltext .. _mens )
 	
