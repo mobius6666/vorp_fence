@@ -45,7 +45,7 @@ Citizen.CreateThread( function()
 		if WarMenu.IsMenuOpened('fence') then
 			for i = 1, #chatarra do
 				if WarMenu.Button(chatarra[i]['Text'], chatarra[i]['SubText'], chatarra[i]['Desc']) then
-					TriggerServerEvent('fence:vender', chatarra[i]['Param'])
+					TriggerServerEvent('gold:vender', chatarra[i]['Param'])
 				--	WarMenu.CloseMenu()
 				end
 			end
