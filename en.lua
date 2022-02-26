@@ -23,43 +23,13 @@ Config.Blips = {
 Config.Chatarra = {
 	
 	{
-		['Text'] = "$2 - Beer",
-		['SubText'] = "",
-		['Desc'] = "Strong Beer",
-		['Param'] = {
-			['Price'] = 2,
-			['Tipo'] = "beer",
-			['Mens'] = "a Beer"
-		}
-	},
-	{
-		['Text'] = "$8 - Moonshine",
-		['SubText'] = "",
-		['Desc'] = "Distilled Moonshine",
-		['Param'] = {
-			['Price'] = 8,
-			['Tipo'] = "moonshine",
-			['Mens'] = "a Moonshine Bottle"
-		}
-	},
-	{
-		['Text'] = "$12 - Whisky",
-		['SubText'] = "",
-		['Desc'] = "Kentucky Whisky",
-		['Param'] = {
-			['Price'] = 12,
-			['Tipo'] = "whisky",
-			['Mens'] = "a Bottle of Whisky"
-		}
-	},
-	{
-		['Text'] = "$1 - Kidney Beans Can",
-		['SubText'] = "",
-		['Desc'] = "Can of Cooked Kidney Beans",
+		['Text'] = "Gold Bar",
+		['SubText'] = "Exchange",
+		['Desc'] = "",
 		['Param'] = {
 			['Price'] = 1,
-			['Tipo'] = "consumable_kidneybeans_can",
-			['Mens'] = "a Can of Kidney Beans"
+			['Tipo'] = "goldbar",
+			['Mens'] = "! Gold Bar"
 		}
 	}
 }
